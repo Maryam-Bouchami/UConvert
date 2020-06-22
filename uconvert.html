@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<link href="uconvert.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="page-container">
+		<div class="head-Content">
+			<h1>UConvert</h1>
+		</div>
+		<div class="text-content">
+			<p class="into-text">Select a physical quantity</p>
+		</div>
+		<div class="choice-content">
+				<a class="qu-choice" id="time" href="#">
+				<span>Time</span>
+			</a>
+			<a class="qu-choice" id="length" href="#">
+				<span>Length</span>
+			</a>
+			<a class="qu-choice" id="weight" href="#">
+				<span>weight</span>
+			</a>
+					<a class="qu-choice" id="volume" href="#">
+				<span>Volume</span>
+			</a>
+
+		</div>
+		<div class="form-content">
+			<form id="myForm">
+				<div class="form-first-bloc">
+					<input type="text" name="value" id="value">
+					<select id="fromUnit" name="fromUnit">
+					
+					</select>
+					
+				</div>
+				<div>
+					<input type="submit" name="convert" value="Convert">
+				</div>
+				<div class="form-second-bloc">
+					
+					<div class="result"></div>	
+					<select id="toUnit" name="toUnit">
+						
+					</select>
+					
+				</div>
+				
+			</form>
+			
+		</div>
+
+	</div>
+
+	<div class="footer">
+	</div>
+	<script type="application/ecmascript" src="unconvert.js"></script>
+	<script type="application/ecmascript" src="ajax.js"></script>
+	
+	
+	
+	
+	
+	
+	
+	
+</body>
+
+</html>
